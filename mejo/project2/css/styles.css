@@ -61,6 +61,18 @@ padding-top: 80px;
 	opacity:0.8;
 }
 
+.content_sec1{
+text-align: left;
+/*padding-left: 140pt;*/
+padding-top: 80px;
+}
+.content_sec1 p{
+
+	letter-spacing:0.2px;
+	color:#444;
+	font-size: 18pt;
+	font-family: 'Roboto', sans-serif;
+}
 
 .front{
 	margin-top: 7px;
@@ -207,9 +219,9 @@ mobile style*/
 	padding-right: 20px;
 
 }
-.content p{
+/*.content p{
 	font-size: 12pt;
-}
+}*/
   .title{
   	text-align: left;
 	font-size: 2em;
@@ -218,6 +230,10 @@ mobile style*/
 
 }
 
+.content_sec1 p{
+	font-size: 1em;
+	line-height: 150%;
+}
 .content p{
 	font-size: 1em;
 	line-height: 150%;
@@ -235,10 +251,11 @@ mobile style*/
 }
 
 .title3{
-    text-align: left;
-	font-size: 2em;
-	padding-left:10px;
-	padding-top: 0px;
+    text-align: center;
+    font-size: 2em;
+    padding-left:10px;
+    /* margin-top: -25%; */
+    padding-top: 0px;
 }
 
 #section3 .content{
@@ -247,10 +264,7 @@ mobile style*/
 	padding-top: 5px;
 
 }
-#section3 p{
-font-size:0.8em;
-
-}
+#section3 p{font-size: 1em;}
 
 .graphm{
 	margin-bottom: 0;
@@ -261,14 +275,14 @@ font-size:0.8em;
 }
 
 .title4{
-	text-align: left;
-	font-size: 1.5em;
+	text-align: center;
+	font-size: 1.9em;
 	padding-left:10px;
 	padding-top: 10px;
 	margin: 0;
 	}
 #section4 #sh2{
-	text-align: left;
+	text-align: center;
 	font-size: 1em;
 	padding-top: 5px;
 	padding-left: 10px;
@@ -295,6 +309,7 @@ font-size:0.8em;
 	padding-left: 10px;
 	padding-top: 0;
 	padding-bottom: 0;
+	margin: auto;
 }
 .moboimg{
 	width:90%;
@@ -305,17 +320,19 @@ font-size:0.8em;
 #section4 p{
 	line-height: 140%;
 	padding-bottom: 0;
+	font-size: 0.7em;
 }
 
 .title5{
-	text-align: left;
+	text-align: center;
 	font-size: 2em;
+	margin-right: 10%;
+	margin-top: -10%;
 }
 
 #section5 .content{
 	padding-left: 10px;
 	padding-right: 0;
-
 }
 
 #map{
