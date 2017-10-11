@@ -1,0 +1,340 @@
+/*custom*/
+#section0{
+	background-image: url(../imgs/page0.jpg); 
+    background-size: cover;
+}
+
+#section0 h1:nth-child(2){
+	margin-top:30px;
+}
+
+#title0{
+	margin-top: 250px;
+	padding-left: 80px;
+	text-align: left;
+	
+	color: #f2f2f2;}
+#section0 h1{
+	font-size: 6em;
+	font-family: 'Roboto', sans-serif;
+}
+
+#section0 p{
+	padding-top: 150px;
+	color: #f2f2f2;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+}
+
+
+#timeline{
+	padding-top: 50px;
+	height:580px;
+}
+
+iframe{
+	border-style: none;
+}
+
+
+.title{
+
+	font-size: 5em;
+	color:#444;
+
+}
+.content{
+
+text-align: left;
+padding-left: 140pt;
+padding-top: 80px;
+}
+
+.content p{
+
+	letter-spacing:0.2px;
+	color:#444;
+	font-size: 18pt;
+	font-family: 'Roboto', sans-serif;
+}
+.op8{
+	opacity:0.8;
+}
+
+
+.front{
+	margin-top: 7px;
+	opacity: 0.9;
+	background-color: #FCFAF0;
+	width:532px;
+	height:360px;
+	border-radius: 10px 10px 0 0;
+	padding-left: 25px;
+	padding-top: 35px;
+	line-height: 238%;
+	font-color:#444;
+	padding-right: 15px;
+	border-bottom-style: dashed;
+	border-width:1.5px;
+}
+
+.back{
+	border-top-style: dashed;
+
+}
+
+.title3{
+	font-size: 4em;
+	color: #444;
+}
+
+#section3 p{
+	color:#444;
+	font-size: 18pt;
+	line-height: 140%;
+	letter-spacing:0.2px;
+
+}
+
+#section3 .content{
+	padding-left: 120px;
+	padding-right: 110px;
+}
+.graph{
+	height: 310px;
+	
+	
+	margin-bottom: 20px;
+}
+.title4{
+	font-size: 4em;
+	color: #444;
+}
+#section4 h2{
+	padding-top: 20px;
+	font-size: 2em;
+	color: #f2f2f2;
+
+}
+#section4 .content{
+	padding-left: 100px;
+	padding-right: 170px;
+	line-height: 160%;
+	font-size: 1.5em;
+	
+	padding-right: 10px;
+}
+#map{
+	padding-left: 250px;
+}
+
+#section5 .content{
+	padding-top: 10px;
+	padding-left: 130px;
+	padding-right: 100px;
+}
+.title5{
+	font-size: 4em;
+	color: #444;
+	padding-top: 65px;
+	text-align: center;
+}
+
+.title6{
+	font-size: 4em;
+	color: #444;
+	padding-top: 220px;
+	margin-bottom: 40px;
+}
+
+.quiz{
+	height: 700px;
+}
+
+#section7 h1{
+	font-size: 3em;
+	color: #f2f2f2;
+	padding-top:20px;
+}
+
+
+#section7 p{
+	padding-top: 10px;
+	color:#444;
+}
+#section7 a{
+	color:#444; 
+}
+
+#section7  a:hover{
+	color:#f2f2f2;
+	text-decoration: none;
+}
+
+
+
+
+/*
+mobile style*/
+@media only screen and (max-width: 768px) {
+  
+#section0{
+	background-image: url(../imgs/page0-m.jpg); 
+    background-size: cover;
+}
+
+#section0 h1{
+	font-size: 3em;
+}
+
+#title0{ 
+	margin-top: 250px;
+	padding-left: 20px;
+	text-align: left;
+	
+	color: #f2f2f2;
+}
+
+#section0 p{
+	padding-top: 60px;
+	color: #f2f2f2;
+	font-size: 1em;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.content{
+	padding-left: 10px;
+	padding-right: 20px;
+
+}
+.content p{
+	font-size: 12pt;
+}
+  .title{
+  	text-align: left;
+	font-size: 2em;
+	padding-left:10px;
+	padding-top: 20px;
+
+}
+
+.content p{
+	font-size: 1em;
+	line-height: 150%;
+}
+
+.front{
+	width:75%;
+
+	margin-left: 40px;
+}
+
+.op8{
+	width:80%;
+	margin-left: 23px;
+}
+
+.title3{
+    text-align: left;
+	font-size: 2em;
+	padding-left:10px;
+	padding-top: 0px;
+}
+
+#section3 .content{
+	padding: 0;
+	padding-left: 5px;
+	padding-top: 5px;
+
+}
+#section3 p{
+font-size:0.8em;
+
+}
+
+.graphm{
+	margin-bottom: 0;
+}
+
+.closer{
+	margin-top: -120px;
+}
+
+.title4{
+	text-align: left;
+	font-size: 1.5em;
+	padding-left:10px;
+	padding-top: 10px;
+	margin: 0;
+	}
+#section4 #sh2{
+	text-align: left;
+	font-size: 1em;
+	padding-top: 5px;
+	padding-left: 10px;
+	}
+
+.title5{
+	text-align: left;
+	font-size: 2em;
+	padding-left: 10px;
+}
+
+
+.mobo{
+	width:60%;
+}
+.moboq{
+	width:50%;
+}
+
+.mobo4{
+	width:90%;
+}
+#section4 .content{
+	padding-left: 10px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.moboimg{
+	width:90%;
+}
+
+
+
+#section4 p{
+	line-height: 140%;
+	padding-bottom: 0;
+}
+
+.title5{
+	text-align: left;
+	font-size: 2em;
+}
+
+#section5 .content{
+	padding-left: 10px;
+	padding-right: 0;
+
+}
+
+#map{
+	padding:0;
+	margin-left: -250px;
+	width: 30%;
+	height: 30%;
+}
+
+.title6{
+	text-align: left;
+	font-size: 2em;
+	padding-left: 10px;
+
+}
+
+.quiz{
+	padding-left: 5px;
+}
+
+
+}
